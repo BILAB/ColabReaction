@@ -4,7 +4,7 @@ This repository contains a Google Colab notebook for transition state (TS) searc
 
 ## 📘 Colab Notebook
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://ColabReaction.net)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BILAB/ColabReaction/blob/main/ColabReaction.ipynb)
 
 ## 📂 How to Use
 

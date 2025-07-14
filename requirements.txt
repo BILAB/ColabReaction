@@ -1,0 +1,16 @@
+ase
+numpy
+scipy
+cyipopt
+pandas
+matplotlib
+plotly
+rdkit
+py3Dmol
+ipywidgets
+bokeh
+panel
+param
+jupyter_bokeh
+google-colab
+

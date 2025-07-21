@@ -1,0 +1,3 @@
+Time for FB-ENM interpolation: 3.62 s
+Time for DMF total (setup + solve): 97.37 s
+Total time: 104.43 s

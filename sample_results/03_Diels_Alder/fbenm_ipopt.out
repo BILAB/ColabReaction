@@ -1,3 +1,10 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
 This is Ipopt version 3.11.9, running with linear solver mumps.
 NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
 
@@ -25,19 +32,19 @@ iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
    6  5.3382894e-02 7.12e-03 6.30e-02  -4.8 3.52e-02    -  1.00e+00 9.31e-01h  1
    7  4.8308149e-02 2.34e-02 1.71e-02  -4.3 7.68e-02    -  4.77e-01 6.76e-01h  1
    8  4.6556739e-02 1.28e-02 3.91e-02  -4.6 1.81e-02    -  1.00e+00 1.00e+00h  1
-   9  4.5277404e-02 1.39e-16 1.41e-02  -5.1 1.47e-02    -  1.00e+00 1.00e+00h  1
+   9  4.5277404e-02 1.11e-16 1.41e-02  -5.1 1.47e-02    -  1.00e+00 1.00e+00h  1
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-  10  4.4709023e-02 1.23e-16 1.24e-02  -4.8 1.60e-02    -  1.00e+00 1.00e+00h  1
+  10  4.4709023e-02 1.80e-16 1.24e-02  -4.8 1.60e-02    -  1.00e+00 1.00e+00h  1
   11  4.4415523e-02 1.11e-16 4.07e-03  -5.0 1.25e-02    -  9.98e-01 1.00e+00h  1
 
 Number of Iterations....: 11
 
                                    (scaled)                 (unscaled)
-Objective...............:   4.4415523231429053e-03    4.4415523231429048e-02
-Dual infeasibility......:   4.0668495519948734e-03    4.0668495519948736e-02
+Objective...............:   4.4415523231166043e-03    4.4415523231166043e-02
+Dual infeasibility......:   4.0668491571467539e-03    4.0668491571467541e-02
 Constraint violation....:   1.1102230246251565e-16    1.1102230246251565e-16
-Complementarity.........:   1.3073698244865214e-05    1.3073698244865214e-04
-Overall NLP error.......:   4.0668495519948734e-03    4.0668495519948736e-02
+Complementarity.........:   1.3073697598894566e-05    1.3073697598894564e-04
+Overall NLP error.......:   4.0668491571467539e-03    4.0668491571467541e-02
 
 
 Number of objective function evaluations             = 12
@@ -47,8 +54,8 @@ Number of inequality constraint evaluations          = 12
 Number of equality constraint Jacobian evaluations   = 12
 Number of inequality constraint Jacobian evaluations = 12
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.952
-Total CPU secs in NLP function evaluations           =      0.798
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.732
+Total CPU secs in NLP function evaluations           =      0.701
 
 EXIT: Optimal Solution Found.
 This is Ipopt version 3.11.9, running with linear solver mumps.
@@ -70,17 +77,17 @@ Total number of inequality constraints...............:       40
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
    0  4.6866962e-02 1.11e-16 2.16e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  3.5034601e-02 1.26e-16 1.26e-02  -3.9 8.96e-03    -  9.92e-01 1.00e+00f  1
-   2  2.7802794e-02 1.16e-16 4.82e-03  -4.9 1.05e-02    -  1.00e+00 1.00e+00h  1
+   1  3.5034601e-02 1.39e-16 1.26e-02  -3.9 8.96e-03    -  9.92e-01 1.00e+00f  1
+   2  2.7802794e-02 1.67e-16 4.82e-03  -4.9 1.05e-02    -  1.00e+00 1.00e+00h  1
 
 Number of Iterations....: 2
 
                                    (scaled)                 (unscaled)
-Objective...............:   2.7802793938232519e-03    2.7802793938232519e-02
-Dual infeasibility......:   4.8155739265075556e-03    4.8155739265075555e-02
-Constraint violation....:   1.1622647289044608e-16    1.1622647289044608e-16
-Complementarity.........:   2.5791748384963773e-05    2.5791748384963769e-04
-Overall NLP error.......:   4.8155739265075556e-03    4.8155739265075555e-02
+Objective...............:   2.7802794008172727e-03    2.7802794008172725e-02
+Dual infeasibility......:   4.8155739239139645e-03    4.8155739239139642e-02
+Constraint violation....:   1.6653345369377348e-16    1.6653345369377348e-16
+Complementarity.........:   2.5791748442064453e-05    2.5791748442064453e-04
+Overall NLP error.......:   4.8155739239139645e-03    4.8155739239139642e-02
 
 
 Number of objective function evaluations             = 3
@@ -90,7 +97,50 @@ Number of inequality constraint evaluations          = 3
 Number of equality constraint Jacobian evaluations   = 3
 Number of inequality constraint Jacobian evaluations = 3
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.231
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.233
+Total CPU secs in NLP function evaluations           =      0.158
+
+EXIT: Optimal Solution Found.
+This is Ipopt version 3.11.9, running with linear solver mumps.
+NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
+
+Number of nonzeros in equality constraint Jacobian...:    16443
+Number of nonzeros in inequality constraint Jacobian.:    31320
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:      783
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       21
+Total number of inequality constraints...............:       40
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:       40
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.9986474e-01 1.67e-16 6.32e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.3940557e-01 8.33e-17 1.93e-02  -8.0 2.23e-02    -  9.35e-01 1.00e+00f  1
+   2  1.2425788e-01 8.33e-17 8.96e-03  -4.4 1.37e-02    -  9.97e-01 1.00e+00h  1
+
+Number of Iterations....: 2
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.2425788238156175e-02    1.2425788238156175e-01
+Dual infeasibility......:   8.9642796750857637e-03    8.9642796750857637e-02
+Constraint violation....:   8.3266726846886741e-17    8.3266726846886741e-17
+Complementarity.........:   9.9940522593967675e-05    9.9940522593967678e-04
+Overall NLP error.......:   8.9642796750857637e-03    8.9642796750857637e-02
+
+
+Number of objective function evaluations             = 3
+Number of objective gradient evaluations             = 3
+Number of equality constraint evaluations            = 3
+Number of inequality constraint evaluations          = 3
+Number of equality constraint Jacobian evaluations   = 3
+Number of inequality constraint Jacobian evaluations = 3
+Number of Lagrangian Hessian evaluations             = 0
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.236
 Total CPU secs in NLP function evaluations           =      0.167
 
 EXIT: Optimal Solution Found.
@@ -112,29 +162,30 @@ Total number of inequality constraints...............:       40
         inequality constraints with only upper bounds:        0
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  1.9986474e-01 1.16e-16 6.32e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  1.3940557e-01 8.33e-17 1.93e-02  -8.0 2.23e-02    -  9.35e-01 1.00e+00f  1
-   2  1.2425788e-01 1.11e-16 8.96e-03  -4.4 1.37e-02    -  9.97e-01 1.00e+00h  1
+   0  3.8622311e-01 8.33e-17 1.14e-01   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.7495519e-01 1.20e-16 2.77e-02  -2.8 3.48e-02    -  9.87e-01 1.00e+00f  1
+   2  2.5380330e-01 1.46e-16 1.48e-02  -4.0 1.08e-02    -  9.89e-01 1.00e+00h  1
+   3  2.1525736e-01 1.39e-16 7.52e-03  -4.5 3.61e-02    -  9.97e-01 1.00e+00h  1
 
-Number of Iterations....: 2
+Number of Iterations....: 3
 
                                    (scaled)                 (unscaled)
-Objective...............:   1.2425788219676328e-02    1.2425788219676327e-01
-Dual infeasibility......:   8.9642796514961143e-03    8.9642796514961140e-02
-Constraint violation....:   1.1102230246251565e-16    1.1102230246251565e-16
-Complementarity.........:   9.9940522488020319e-05    9.9940522488020309e-04
-Overall NLP error.......:   8.9642796514961143e-03    8.9642796514961140e-02
+Objective...............:   2.1525735968724452e-02    2.1525735968724452e-01
+Dual infeasibility......:   7.5189594243033403e-03    7.5189594243033397e-02
+Constraint violation....:   1.3877787807814457e-16    1.3877787807814457e-16
+Complementarity.........:   7.6179096745529384e-05    7.6179096745529376e-04
+Overall NLP error.......:   7.5189594243033403e-03    7.5189594243033397e-02
 
 
-Number of objective function evaluations             = 3
-Number of objective gradient evaluations             = 3
-Number of equality constraint evaluations            = 3
-Number of inequality constraint evaluations          = 3
-Number of equality constraint Jacobian evaluations   = 3
-Number of inequality constraint Jacobian evaluations = 3
+Number of objective function evaluations             = 4
+Number of objective gradient evaluations             = 4
+Number of equality constraint evaluations            = 4
+Number of inequality constraint evaluations          = 4
+Number of equality constraint Jacobian evaluations   = 4
+Number of inequality constraint Jacobian evaluations = 4
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.246
-Total CPU secs in NLP function evaluations           =      0.188
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.337
+Total CPU secs in NLP function evaluations           =      0.229
 
 EXIT: Optimal Solution Found.
 This is Ipopt version 3.11.9, running with linear solver mumps.
@@ -155,19 +206,19 @@ Total number of inequality constraints...............:       40
         inequality constraints with only upper bounds:        0
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  3.8622311e-01 1.11e-16 1.14e-01   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  2.7495519e-01 8.33e-17 2.77e-02  -2.8 3.48e-02    -  9.87e-01 1.00e+00f  1
-   2  2.5380330e-01 2.22e-16 1.48e-02  -4.0 1.08e-02    -  9.89e-01 1.00e+00h  1
-   3  2.1525736e-01 2.91e-16 7.52e-03  -4.5 3.61e-02    -  9.97e-01 1.00e+00h  1
+   0  1.8436850e-01 1.39e-16 7.04e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.4938070e-01 2.01e-16 1.45e-02  -3.9 2.63e-02    -  9.47e-01 1.00e+00f  1
+   2  1.3981949e-01 1.53e-16 1.13e-02  -4.6 6.89e-03    -  1.00e+00 1.00e+00h  1
+   3  1.1979563e-01 1.53e-16 7.51e-03  -5.5 2.67e-02    -  1.00e+00 1.00e+00h  1
 
 Number of Iterations....: 3
 
                                    (scaled)                 (unscaled)
-Objective...............:   2.1525735957152813e-02    2.1525735957152811e-01
-Dual infeasibility......:   7.5189594226937745e-03    7.5189594226937745e-02
-Constraint violation....:   2.9143354396410359e-16    2.9143354396410359e-16
-Complementarity.........:   7.6179096945904623e-05    7.6179096945904617e-04
-Overall NLP error.......:   7.5189594226937745e-03    7.5189594226937745e-02
+Objective...............:   1.1979563388709527e-02    1.1979563388709526e-01
+Dual infeasibility......:   7.5131885370338597e-03    7.5131885370338602e-02
+Constraint violation....:   1.5265566588595902e-16    1.5265566588595902e-16
+Complementarity.........:   5.0315437817378694e-06    5.0315437817378694e-05
+Overall NLP error.......:   7.5131885370338597e-03    7.5131885370338602e-02
 
 
 Number of objective function evaluations             = 4
@@ -178,7 +229,7 @@ Number of equality constraint Jacobian evaluations   = 4
 Number of inequality constraint Jacobian evaluations = 4
 Number of Lagrangian Hessian evaluations             = 0
 Total CPU secs in IPOPT (w/o function evaluations)   =      0.344
-Total CPU secs in NLP function evaluations           =      0.248
+Total CPU secs in NLP function evaluations           =      0.231
 
 EXIT: Optimal Solution Found.
 This is Ipopt version 3.11.9, running with linear solver mumps.
@@ -199,64 +250,20 @@ Total number of inequality constraints...............:       40
         inequality constraints with only upper bounds:        0
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  1.8436850e-01 2.91e-16 7.04e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  1.4938070e-01 1.25e-16 1.45e-02  -3.9 2.63e-02    -  9.47e-01 1.00e+00f  1
-   2  1.3981949e-01 1.14e-16 1.13e-02  -4.6 6.89e-03    -  1.00e+00 1.00e+00h  1
-   3  1.1979563e-01 9.02e-17 7.51e-03  -5.5 2.67e-02    -  1.00e+00 1.00e+00h  1
-
-Number of Iterations....: 3
-
-                                   (scaled)                 (unscaled)
-Objective...............:   1.1979563396339850e-02    1.1979563396339850e-01
-Dual infeasibility......:   7.5131885457662495e-03    7.5131885457662501e-02
-Constraint violation....:   9.0205620750793969e-17    9.0205620750793969e-17
-Complementarity.........:   5.0315437916232182e-06    5.0315437916232182e-05
-Overall NLP error.......:   7.5131885457662495e-03    7.5131885457662501e-02
-
-
-Number of objective function evaluations             = 4
-Number of objective gradient evaluations             = 4
-Number of equality constraint evaluations            = 4
-Number of inequality constraint evaluations          = 4
-Number of equality constraint Jacobian evaluations   = 4
-Number of inequality constraint Jacobian evaluations = 4
-Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.351
-Total CPU secs in NLP function evaluations           =      0.245
-
-EXIT: Optimal Solution Found.
-This is Ipopt version 3.11.9, running with linear solver mumps.
-NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
-
-Number of nonzeros in equality constraint Jacobian...:    16443
-Number of nonzeros in inequality constraint Jacobian.:    31320
-Number of nonzeros in Lagrangian Hessian.............:        0
-
-Total number of variables............................:      783
-                     variables with only lower bounds:        0
-                variables with lower and upper bounds:        0
-                     variables with only upper bounds:        0
-Total number of equality constraints.................:       21
-Total number of inequality constraints...............:       40
-        inequality constraints with only lower bounds:        0
-   inequality constraints with lower and upper bounds:       40
-        inequality constraints with only upper bounds:        0
-
-iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  5.7173557e-02 9.02e-17 2.12e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  5.2350388e-02 9.71e-17 1.06e-02  -3.9 8.33e-03    -  9.98e-01 1.00e+00f  1
-   2  4.8334819e-02 1.20e-16 1.00e-02  -5.5 5.09e-03    -  1.00e+00 1.00e+00h  1
-   3  3.6985073e-02 1.25e-16 1.07e-02  -6.7 2.26e-02    -  1.00e+00 1.00e+00h  1
-   4  3.2252246e-02 1.11e-16 5.26e-03  -7.6 1.57e-02    -  1.00e+00 1.00e+00h  1
+   0  5.7173557e-02 1.53e-16 2.12e-02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  5.2350387e-02 1.18e-16 1.06e-02  -3.9 8.33e-03    -  9.98e-01 1.00e+00f  1
+   2  4.8334819e-02 9.71e-17 1.00e-02  -5.5 5.09e-03    -  1.00e+00 1.00e+00h  1
+   3  3.6985073e-02 1.67e-16 1.07e-02  -6.7 2.26e-02    -  1.00e+00 1.00e+00h  1
+   4  3.2252246e-02 1.50e-16 5.26e-03  -7.6 1.57e-02    -  1.00e+00 1.00e+00h  1
 
 Number of Iterations....: 4
 
                                    (scaled)                 (unscaled)
-Objective...............:   3.2252245951076286e-03    3.2252245951076286e-02
-Dual infeasibility......:   5.2555428787032102e-03    5.2555428787032100e-02
-Constraint violation....:   1.1102230246251565e-16    1.1102230246251565e-16
-Complementarity.........:   6.6084306106932824e-08    6.6084306106932818e-07
-Overall NLP error.......:   5.2555428787032102e-03    5.2555428787032100e-02
+Objective...............:   3.2252245932382312e-03    3.2252245932382309e-02
+Dual infeasibility......:   5.2555429095267805e-03    5.2555429095267808e-02
+Constraint violation....:   1.5005358067199381e-16    1.5005358067199381e-16
+Complementarity.........:   6.6084305965962441e-08    6.6084305965962438e-07
+Overall NLP error.......:   5.2555429095267805e-03    5.2555429095267808e-02
 
 
 Number of objective function evaluations             = 5
@@ -266,8 +273,8 @@ Number of inequality constraint evaluations          = 5
 Number of equality constraint Jacobian evaluations   = 5
 Number of inequality constraint Jacobian evaluations = 5
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.375
-Total CPU secs in NLP function evaluations           =      0.318
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.377
+Total CPU secs in NLP function evaluations           =      0.274
 
 EXIT: Optimal Solution Found.
 This is Ipopt version 3.11.9, running with linear solver mumps.
@@ -288,17 +295,17 @@ Total number of inequality constraints...............:       40
         inequality constraints with only upper bounds:        0
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  2.4294720e-02 1.11e-16 6.56e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  2.2968533e-02 9.84e-17 4.84e-03  -4.1 2.64e-03    -  9.97e-01 1.00e+00f  1
+   0  2.4294720e-02 1.50e-16 6.56e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.2968533e-02 1.38e-16 4.84e-03  -4.1 2.64e-03    -  9.97e-01 1.00e+00f  1
 
 Number of Iterations....: 1
 
                                    (scaled)                 (unscaled)
-Objective...............:   2.2968532759411998e-03    2.2968532759411995e-02
-Dual infeasibility......:   4.8388804286461978e-03    4.8388804286461980e-02
-Constraint violation....:   9.8445557261683803e-17    9.8445557261683803e-17
-Complementarity.........:   1.6727495790307186e-04    1.6727495790307184e-03
-Overall NLP error.......:   4.8388804286461978e-03    4.8388804286461980e-02
+Objective...............:   2.2968532755301969e-03    2.2968532755301967e-02
+Dual infeasibility......:   4.8388804456885245e-03    4.8388804456885245e-02
+Constraint violation....:   1.3791051634015616e-16    1.3791051634015616e-16
+Complementarity.........:   1.6727495778739532e-04    1.6727495778739532e-03
+Overall NLP error.......:   4.8388804456885245e-03    4.8388804456885245e-02
 
 
 Number of objective function evaluations             = 2
@@ -308,8 +315,8 @@ Number of inequality constraint evaluations          = 2
 Number of equality constraint Jacobian evaluations   = 2
 Number of inequality constraint Jacobian evaluations = 2
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.151
-Total CPU secs in NLP function evaluations           =      0.107
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.155
+Total CPU secs in NLP function evaluations           =      0.098
 
 EXIT: Optimal Solution Found.
 This is Ipopt version 3.11.9, running with linear solver mumps.
@@ -330,101 +337,17 @@ Total number of inequality constraints...............:       40
         inequality constraints with only upper bounds:        0
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  2.2696918e-02 9.84e-17 4.84e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  2.2044229e-02 1.32e-16 3.71e-03  -4.1 1.95e-03    -  9.97e-01 1.00e+00f  1
+   0  2.2696918e-02 1.38e-16 4.84e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.2044229e-02 1.53e-16 3.71e-03  -4.1 1.95e-03    -  9.97e-01 1.00e+00f  1
 
 Number of Iterations....: 1
 
                                    (scaled)                 (unscaled)
-Objective...............:   2.2044228840974105e-03    2.2044228840974102e-02
-Dual infeasibility......:   3.7080593782058027e-03    3.7080593782058024e-02
-Constraint violation....:   1.3183898417423734e-16    1.3183898417423734e-16
-Complementarity.........:   1.7557471038698208e-04    1.7557471038698207e-03
-Overall NLP error.......:   3.7080593782058027e-03    3.7080593782058024e-02
-
-
-Number of objective function evaluations             = 2
-Number of objective gradient evaluations             = 2
-Number of equality constraint evaluations            = 2
-Number of inequality constraint evaluations          = 2
-Number of equality constraint Jacobian evaluations   = 2
-Number of inequality constraint Jacobian evaluations = 2
-Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.146
-Total CPU secs in NLP function evaluations           =      0.116
-
-EXIT: Optimal Solution Found.
-This is Ipopt version 3.11.9, running with linear solver mumps.
-NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
-
-Number of nonzeros in equality constraint Jacobian...:    16443
-Number of nonzeros in inequality constraint Jacobian.:    31320
-Number of nonzeros in Lagrangian Hessian.............:        0
-
-Total number of variables............................:      783
-                     variables with only lower bounds:        0
-                variables with lower and upper bounds:        0
-                     variables with only upper bounds:        0
-Total number of equality constraints.................:       21
-Total number of inequality constraints...............:       40
-        inequality constraints with only lower bounds:        0
-   inequality constraints with lower and upper bounds:       40
-        inequality constraints with only upper bounds:        0
-
-iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  2.1905835e-02 1.32e-16 3.69e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  2.1429362e-02 9.71e-17 3.25e-03  -4.1 1.49e-03    -  9.96e-01 1.00e+00f  1
-
-Number of Iterations....: 1
-
-                                   (scaled)                 (unscaled)
-Objective...............:   2.1429362310524730e-03    2.1429362310524728e-02
-Dual infeasibility......:   3.2491883366552255e-03    3.2491883366552253e-02
-Constraint violation....:   9.7144514654701197e-17    9.7144514654701197e-17
-Complementarity.........:   1.8192450852881268e-04    1.8192450852881268e-03
-Overall NLP error.......:   3.2491883366552255e-03    3.2491883366552253e-02
-
-
-Number of objective function evaluations             = 2
-Number of objective gradient evaluations             = 2
-Number of equality constraint evaluations            = 2
-Number of inequality constraint evaluations          = 2
-Number of equality constraint Jacobian evaluations   = 2
-Number of inequality constraint Jacobian evaluations = 2
-Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.152
-Total CPU secs in NLP function evaluations           =      0.125
-
-EXIT: Optimal Solution Found.
-This is Ipopt version 3.11.9, running with linear solver mumps.
-NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
-
-Number of nonzeros in equality constraint Jacobian...:    16443
-Number of nonzeros in inequality constraint Jacobian.:    31320
-Number of nonzeros in Lagrangian Hessian.............:        0
-
-Total number of variables............................:      783
-                     variables with only lower bounds:        0
-                variables with lower and upper bounds:        0
-                     variables with only upper bounds:        0
-Total number of equality constraints.................:       21
-Total number of inequality constraints...............:       40
-        inequality constraints with only lower bounds:        0
-   inequality constraints with lower and upper bounds:       40
-        inequality constraints with only upper bounds:        0
-
-iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  2.1324485e-02 9.71e-17 3.24e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  2.0938110e-02 1.53e-16 2.75e-03  -4.1 1.30e-03    -  9.96e-01 1.00e+00f  1
-
-Number of Iterations....: 1
-
-                                   (scaled)                 (unscaled)
-Objective...............:   2.0938109876625479e-03    2.0938109876625477e-02
-Dual infeasibility......:   2.7548699737042909e-03    2.7548699737042909e-02
+Objective...............:   2.2044228835891209e-03    2.2044228835891206e-02
+Dual infeasibility......:   3.7080593877711738e-03    3.7080593877711739e-02
 Constraint violation....:   1.5265566588595902e-16    1.5265566588595902e-16
-Complementarity.........:   1.7943887688427247e-04    1.7943887688427246e-03
-Overall NLP error.......:   2.7548699737042909e-03    2.7548699737042909e-02
+Complementarity.........:   1.7557471047623905e-04    1.7557471047623904e-03
+Overall NLP error.......:   3.7080593877711738e-03    3.7080593877711739e-02
 
 
 Number of objective function evaluations             = 2
@@ -434,7 +357,91 @@ Number of inequality constraint evaluations          = 2
 Number of equality constraint Jacobian evaluations   = 2
 Number of inequality constraint Jacobian evaluations = 2
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.156
-Total CPU secs in NLP function evaluations           =      0.111
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.147
+Total CPU secs in NLP function evaluations           =      0.098
+
+EXIT: Optimal Solution Found.
+This is Ipopt version 3.11.9, running with linear solver mumps.
+NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
+
+Number of nonzeros in equality constraint Jacobian...:    16443
+Number of nonzeros in inequality constraint Jacobian.:    31320
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:      783
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       21
+Total number of inequality constraints...............:       40
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:       40
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  2.1905835e-02 1.53e-16 3.69e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.1429362e-02 1.53e-16 3.25e-03  -4.1 1.49e-03    -  9.96e-01 1.00e+00f  1
+
+Number of Iterations....: 1
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.1429362305017572e-03    2.1429362305017571e-02
+Dual infeasibility......:   3.2491883429263558e-03    3.2491883429263554e-02
+Constraint violation....:   1.5265566588595902e-16    1.5265566588595902e-16
+Complementarity.........:   1.8192450855817807e-04    1.8192450855817807e-03
+Overall NLP error.......:   3.2491883429263558e-03    3.2491883429263554e-02
+
+
+Number of objective function evaluations             = 2
+Number of objective gradient evaluations             = 2
+Number of equality constraint evaluations            = 2
+Number of inequality constraint evaluations          = 2
+Number of equality constraint Jacobian evaluations   = 2
+Number of inequality constraint Jacobian evaluations = 2
+Number of Lagrangian Hessian evaluations             = 0
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.158
+Total CPU secs in NLP function evaluations           =      0.106
+
+EXIT: Optimal Solution Found.
+This is Ipopt version 3.11.9, running with linear solver mumps.
+NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
+
+Number of nonzeros in equality constraint Jacobian...:    16443
+Number of nonzeros in inequality constraint Jacobian.:    31320
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:      783
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       21
+Total number of inequality constraints...............:       40
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:       40
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  2.1324485e-02 1.53e-16 3.24e-03   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.0938110e-02 1.04e-16 2.75e-03  -4.1 1.30e-03    -  9.96e-01 1.00e+00f  1
+
+Number of Iterations....: 1
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.0938109871039591e-03    2.0938109871039591e-02
+Dual infeasibility......:   2.7548699728193651e-03    2.7548699728193651e-02
+Constraint violation....:   1.0408340855860843e-16    1.0408340855860843e-16
+Complementarity.........:   1.7943887693117795e-04    1.7943887693117795e-03
+Overall NLP error.......:   2.7548699728193651e-03    2.7548699728193651e-02
+
+
+Number of objective function evaluations             = 2
+Number of objective gradient evaluations             = 2
+Number of equality constraint evaluations            = 2
+Number of inequality constraint evaluations          = 2
+Number of equality constraint Jacobian evaluations   = 2
+Number of inequality constraint Jacobian evaluations = 2
+Number of Lagrangian Hessian evaluations             = 0
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.143
+Total CPU secs in NLP function evaluations           =      0.102
 
 EXIT: Optimal Solution Found.

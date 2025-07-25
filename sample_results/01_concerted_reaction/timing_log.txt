@@ -1,3 +1,22 @@
-Time for FB-ENM interpolation: 5.57 s
-Time for DMF total (setup + solve): 168.39 s
-Total time: 177.38 s
+Computational Biology Laboratory＠the University of Tokyo
+(https://www.bi.a.u-tokyo.ac.jp/)　All Rights Reserved.
+
+ _____       _       _    ______                _   _             
+/  __ \     | |     | |   | ___ \              | | (_)            
+| /  \/ ___ | | __ _| |__ | |_/ /___  __ _  ___| |_ _  ___  _ __  
+| |    / _ \| |/ _` | '_ \|    // _ \/ _` |/ __| __| |/ _ \| '_ \ 
+| \__/| (_) | | (_| | |_) | |\ |  __| (_| | (__| |_| | (_) | | | |
+ \____/\___/|_|\__,_|_.__/\_| \_\___|\__,_|\___|\__|_|\___/|_| |_|
+
+  ColabReaction   Embody the Invisible --- the Transition State
+
+***********************************************************************
+*                     COMPUTATION TIME SUMMARY                     *
+*=================================================================*
+* FB-ENM Interpolation         |         4.69 s               *
+* DMF Total (Setup + Solve)    |       171.87 s               *
+* Total Time                   |       180.41 s               *
+*=================================================================*
+***********************************************************************
+   14-July-2025  Created by Computational Biology Laboratory＠UTokyo
+***********************************************************************

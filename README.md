@@ -1,18 +1,24 @@
-# ColabReaction: Accelerated Transition State Searches Using Machine Learning Potentials on Google Colaboratory 
+# ColabReaction: Accelerating Transition State Searches with Machine Learning Potentials on Google Colaboratory 
 
 This repository contains a Google Colab notebook for transition state (TS) search using the Direct MaxFlux (DMF) method and ML potentials (UMA).
 
-## 📘 Colab Notebook
+# 📘 Colab Notebook
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BILAB/ColabReaction/blob/main/ColabReaction.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://ColabReaction.net)
 
-## 📂 How to Use
+<a href="https://ColabReaction.net" target="_blank">
+  <img src="TOC_logo.jpg" alt="Logo" width="600">
+</a>
+
+# 📂 How to Use
 
 1. Click the Colab link above
 2. Upload your input files (e.g. `reactant.xyz`, `product.xyz`)
 3. Follow the notebook cells
 
-## 🖥️ Installation (for local environment)
+### 📘 User Guide (<a href="https://bilab.github.io/ColabReaction/User_Guide_EN.pdf">English</a>, <a href="https://bilab.github.io/ColabReaction/User_Guide_JP.pdf">日本語</a>)
+
+# 🖥️ Installation (for local environment)
 
 We recommend running this notebook on Google Colab.
 
@@ -27,7 +33,7 @@ Please refer to the respective project repositories for details.
 
 ⚠️ Note: We do not officially support or test local installations.
 
-## 📖 Citation
+# 📖 Citation
 
 If you use **ColabReaction** in your research, please cite the following publication:
 
